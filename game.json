@@ -67,7 +67,7 @@
     },
     "JKB": {
         "name": "Joker's Bar",
-        "desc": "\nYou walk into a bar full of Joker thugs, and the Price of Crime himself. \n\nJoker: Well, well well... if it isn't the old robin. Came to say hi? Did you hear about new robin? HAHAHAHAHA, you could say he got the Killing Joke.\n Now you're next...",
+        "desc": "\nYou walk into a bar full of Joker thugs, and the Price of Crime himself. \n\nJoker: Well, well well... if it isn't the old robin. Came to say hi? Did you hear about new robin? HAHAHAHAHA, you could say he got the Killing Joke.\n Now you're next...\n\n\n You died.",
         "exits": [],
         "items": []
     },
@@ -151,7 +151,7 @@
     },
     "TWOCRT": {
         "name": "Two Face's Courthouse",
-        "desc": "\nAs soon as you walk in you're treated with the barrel of a gun right to your head. \n\nTwoFace: If it isn't Nightwing... \n\tWE knew you'd come, WE have eyes all over the city... \n\tYou must pay for your crimes against US with justice... \n\tNO! He dies right here, right now... \n\tLooks like we have to refer to the old coin for this one... \n\nTwo Face flips the coin. \nYou don't know how which side it landed on...",
+        "desc": "\nAs soon as you walk in you're treated with the barrel of a gun right to your head. \n\nTwoFace: If it isn't Nightwing... \n\tWE knew you'd come, WE have eyes all over the city... \n\tYou must pay for your crimes against US with justice... \n\tNO! He dies right here, right now... \n\tLooks like we have to refer to the old coin for this one... \n\nTwo Face flips the coin. \nYou don't know how which side it landed on...\n\n\n You died",
         "exits": [],
         "items": []
     },
@@ -175,7 +175,7 @@
     },
     "KLRC": {
         "name": " the Deep of the Sewer",
-        "desc": "\nIt's dark but you can sense a large figure in front of you. \n\n Killer Croc: Has the Bat brought a meal for me?...",
+        "desc": "\nIt's dark but you can sense a large figure in front of you. \n\n Killer Croc: Has the Bat brought a meal for me?...\n\n\n You died",
         "exits": [],
         "items": []
     },
