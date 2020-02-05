@@ -1,0 +1,21 @@
+{
+    "PHONE": {
+       "exits": {
+          "TWOFAT": "\n*BUZZ*\n Alfred: Nightwing it seems your too far south.",
+          "WYNE": "\n*BUZZ*\n Alfred: It seems... I'm losing connecion... go another way...",
+          "BATMAN": "\n *BUZZ* \n Alfred: Master Grayson tell Bruce backup is on the way. \nWe all got together and they're own the way to assist you guys at Arkham"
+       },
+       "actions": {},
+       "points": 15
+    },
+    "ESCRIMA STICKS": {
+       "exits": {
+          "KLRC": "\nYour Escrima sticks start to glow, you can now see the dead corpses around you. And you get to see Killer Crocs hungry face. ",
+          "JKB": "\nJoker: HAHAHAHA I wonder how much money I could get for these light sticks! HAHAHAHHA",
+          "BATMAN": "\n Batman: Good, you found your Escrima Sticks that Jason hid. Those will come in handy for our fight later on.\n\n ",
+          "PARTY": "\n Jason: Hey woah! You found your little sticks, I thought I threw them in the trash."
+       },
+       "actions": {},
+       "points": 10
+    }
+ }

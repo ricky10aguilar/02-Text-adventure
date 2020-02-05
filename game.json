@@ -1,0 +1,212 @@
+{
+	"START": {
+		"name": "a random street in Gotham",
+		"desc": "\nThis random street seems unfamilair to you. You don't know where it is within the city of Gotham. It's quiet and lonley.\nBut as the hero Nightwing you aren't all too fazed by it. ",
+		"exits": [{
+			"exit": "NORTH",
+			"target": "CRMA"
+		}, {
+			"exit": "SOUTH",
+			"target": "HRTGH"
+		}, {
+			"exit": "WEST",
+			"target": "GTP"
+		}, {
+            "exit": "EAST",
+            "target": "SWH"
+        }],
+		"items": [
+            {
+                "item": "PHONE",
+                "desc": "\n*BUZZ* *BUZZ* *BUZZ*\n\nYour phone is ringing on the ground!",
+                "take": "\nYou pick up the phone and answer. \n\nAlfred: Master Grayson... I mean Nighting, I hope you're alright, seems like you were knocked out in a random street by a couple of thugs. I'm calling \nbecause Batman needs to talk to you. He's somewhere in the city, find him. And try to stay out of trouble...\n *hangs up*"
+            }
+        ]
+    }, 
+    "CRMA": {
+        "name": "Crime Alley",
+        "desc": "\nThis is the street Batman's parents were murdered in. You can see the outline of the Wayne's, but no sign of Batman",
+        "exits": [{
+            "exit": "NORTH",
+			"target": "OTC"
+		}, {
+			"exit": "SOUTH",
+			"target": "START"
+		}, {
+			"exit": "WEST",
+			"target": "JKT"
+		}, {
+            "exit": "EAST",
+            "target": "GRGLR"
+        }], 
+        "items": []
+    },
+    "OTC": {
+        "name": "the outer city Gotham",
+        "desc": "\nAs you walk a little further you find youself outside of Gotham. A single road is present that leads to the city of Metropolis. Hmmm you wonder what \nSuperman is doing...",
+        "exits": [{
+			"exit": "SOUTH",
+			"target": "CRMA"
+        }],
+        "items": []
+    },
+    "JKT": {
+        "name": "Joker Territory",
+        "desc": "\nYou can tell Joker is nearby by all the chaos around. Buildings are burning, people are laughing, and police sirens fill the air. ",
+        "exits": [{
+            "exit": "NORTH",
+			"target": "JKB"
+		}, {
+			"exit": "SOUTH",
+			"target": "GTP"
+		}, {
+            "exit": "EAST",
+            "target": "CRMA"
+        }],
+        "items": []
+    },
+    "JKB": {
+        "name": "Joker's Bar",
+        "desc": "\nYou walk into a bar full of Joker thugs, and the Price of Crime himself. \n\nJoker: Well, well well... if it isn't the old robin. Came to say hi? Did you hear about new robin? HAHAHAHAHA, you could say he got the Killing Joke.\n Now you're next...",
+        "exits": [],
+        "items": []
+    },
+    "GTP": {
+        "name": "Gotham Park",
+        "desc": "\nThis park is usually full of happy and romantic cizitens. Today it's quiet, and not a single person is here. You wonder if this has anything to do with Batman.",
+        "exits": [{
+            "exit": "NORTH",
+			"target": "JKT"
+		}, {
+			"exit": "SOUTH",
+			"target": "WYNE"
+		}, {
+            "exit": "EAST",
+            "target": "START"
+        }],
+        "items": [
+            {
+                "item": "ESCRIMA STICKS",
+                "desc": "\n You see your Escrima sticks on the ground next to a trash can. You wonder how they got there.",
+                "take": "\nYou pick up the Escrima Sticks \n I doubt you'll be able to use them now, but they do look cool!"
+            }
+        ]
+    },
+    "WYNE": {
+        "name": "Wayne Enterprise",
+        "desc": "\nA very tall building is presented in front of you. When you go inside you stumble across a huge elevator that leads UP the building",
+        "exits": [{
+            "exit": "UP",
+			"target": "PARTY"
+		}, {
+			"exit": "NORTH",
+			"target": "GTP"
+		}, {
+            "exit": "EAST",
+            "target": "HRTGH"
+        }],
+        "items": []
+    },
+    "HRTGH": {
+        "name": "the Heart of Gotham City",
+		"desc": "\nThe streets are very busy and loud. Every buidling in sight glows with bright neon lights. Everyone seems to be having a good time. \nThis is the reason why you love staying in Gotham, that and beating criminals up in the name of justice. ",
+		"exits": [{
+			"exit": "NORTH",
+			"target": "START"
+		}, {
+			"exit": "SOUTH",
+			"target": "GTHB"
+		}, {
+			"exit": "WEST",
+			"target": "WYNE"
+		}, {
+            "exit": "EAST",
+            "target": "TWOFAT"
+        }],
+        "items": []
+    },
+    "GTHB": {
+        "name": "Gotham Bay",
+        "desc": "\nAll you can see is water beyond this point. Trash fills up the bay. You should probably turn back, you won't find Batman here.",
+        "exits": [{
+            "exit": "NORTH",
+            "target": "HRTGH"
+        }],
+        "items": []
+    },
+    "TWOFAT": {
+        "name": "Two Face's Territory",
+        "desc": "\nHalf of this place is burned up and the other side is perfectly fine. It's pretty ironic. You can see some stairs that go UP into a courthouse. \nYou wonder what Two Face is up to.",
+        "exits": [{
+            "exit": "NORTH",
+            "target": "SWH"
+        }, {
+            "exit": "WEST",
+            "target": "HRTGH"
+        }, {
+            "exit": "UP",
+            "target": "TWOCRT"
+        }],
+        "items": []
+    },
+    "TWOCRT": {
+        "name": "Two Face's Courthouse",
+        "desc": "\nAs soon as you walk in you're treated with the barrel of a gun right to your head. \n\nTwoFace: If it isn't Nightwing... \n\tWE knew you'd come, WE have eyes all over the city... \n\tYou must pay for your crimes against US with justice... \n\tNO! He dies right here, right now... \n\tLooks like we have to refer to the old coin for this one... \n\nTwo Face flips the coin. \nYou don't know how which side it landed on...",
+        "exits": [],
+        "items": []
+    },
+    "SWH": {
+        "name": "the Sewer Hole Entrance",
+        "desc": "\nThe smell is unbearable, and it's not just the waste coming from it. Further east you can hear what seems to be a loud roar followed by a human scream. \nYour noble and heroic personality is making it hard for you not to follow the sound. ",
+        "exits": [{
+            "exit": "NORTH",
+            "target": "GRGLR"
+        }, {
+            "exit": "WEST",
+            "target": "START"
+        }, {
+            "exit": "SOUTH",
+            "target": "TWOFAT"
+        },{ 
+            "exit": "EAST",
+            "target": "KLRC"
+        }],
+        "items": []
+    },
+    "KLRC": {
+        "name": " the Deep of the Sewer",
+        "desc": "\nIt's dark but you can sense a large figure in front of you. \n\n Killer Croc: Has the Bat brought a meal for me?...",
+        "exits": [],
+        "items": []
+    },
+    "GRGLR": {
+        "name": "the Gargoyle Building",
+        "desc": "\nA very tall building in front of you with those famous gargoyles. It seems like the kind up building \nBatman would like to do his brooding on. You can see a ladder the goes UP to the gargoyles and roof.",
+        "exits": [{
+            "exit": "UP",
+            "target": "BATMAN"
+        }, {
+            "exit": "SOUTH",
+            "target": "SWH"
+        }, {
+            "exit": "WEST",
+            "target": "CRMA"
+        }],
+        "items": []
+    },
+    "BATMAN": {
+        "name": "Lonely Rooftop",
+        "desc": "\nThere no one here... \nBut you feel a weird presense\n\n\tBatman: Nightwing. Good you came. I need you help, Arkham Asylum is at Code Red! The Riddler, \nBane, and Scarecrow are behind it all...\n\n\n", 
+        "exits": [],
+        "items": []
+    },
+    "PARTY": {
+        "name": "a Party?",
+        "desc": "\nYou open the doors to the big guest room. Upon opening it the music stops and everyone looks to you. Everyone you know is here: Barbara, Tim, Gordon, \nDamian, Jason, Lucius, and Alfred.\n\n Alfred: Master Grayson ummmm... I thought you were looking for Bruce. This isn't what it looks like.\n\nYou should probabaly leave before this gets any more awkward.",
+        "exits": [{
+            "exit": "DOWN",
+            "target": "WYNE"
+        }],
+        "items": []
+    }
+}
